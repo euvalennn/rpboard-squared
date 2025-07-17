@@ -5,7 +5,7 @@ description: "Simple RP2350-based devboard"
 created_at: "2025-07-15"
 ---
 
-### Total time spent: 4h
+### Total time spent: 7h
 
 # July 15: Started reading hardware design guide + basic schematic design
 
@@ -30,3 +30,17 @@ As for additional features, for now I'm planning on adding lipo battery support,
 Well hopefully tomorrow I'll finish with the basics and start adding some actually interesting features!! :D
 
 **Time spent this session: 4h**
+
+# July 16: Finished basic features + lot of research into charging circuit
+
+Today I finished the basic features needed to make the board work! It's really simple though so I don't think its worth it to even include a screenshot of that.
+
+What I did spend a lot of time on though is trying to figure out how I'd implement battery charging into the board, and after a few hours of googling and reading datasheets I think I'm gonna use a TP4056 with its "typical application" circuit as the charging IC (screenshot below) and then use a MOSFET so load switches to VBUS when USB is plugged in. From what I've seen I also have to include a diode in the load sharing circuit for protection. I'll try to add the charging aspect tomorrow and then see if someone can take a look at my schematic and tell me if there's any mistakes, maybe I'm overthinking this too much lol
+
+<img src="assets/tp4056.png" width=500px>
+
+microSD card reader shouldn't be too hard to wire, and a Qwiic connector should be even easier. I'm not sure if I'll end up adding the OLED though, since I'm planning on getting PCBA for this board and also aliexpress takes like 2 months to ship to me so I wouldn't be able to build it in time unless I source it locally (in that case I'd pay the price difference between getting it locally and ali out of pocket since the cost of locally sourcing an OLED is lower than the customs fees I'd be charged with aliexpress lmao)
+
+Hopefully this approach works because I spent a lot of time figuring it out 😭
+
+**Time spent this session: 3h**
