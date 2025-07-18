@@ -5,7 +5,7 @@ description: "Simple RP2350-based devboard"
 created_at: "2025-07-15"
 ---
 
-### Total time spent: 7h
+### Total time spent: 9h
 
 # July 15: Started reading hardware design guide + basic schematic design
 
@@ -44,3 +44,25 @@ microSD card reader shouldn't be too hard to wire, and a Qwiic connector should 
 Hopefully this approach works because I spent a lot of time figuring it out 😭
 
 **Time spent this session: 3h**
+
+# July 17: Finished charging circuit + tidied up schematic
+
+I finally finished implementing the charging circuit in my schematic, it took me way longer than it should have but I wanted to make sure I was doing everything right becasue no power = no board :(
+
+This is how my charging circuit looks now:
+
+<img src="assets/charging-circuit-tp4056.png" width=300px>
+
+The 5.1k resistor should give me a charging current of around 200-250 mA, which I think is fine for small LiPo batteries. Anyways, if I were to change my mind later I could just swap that resistor.
+
+I also switched the voltage regulator to take in the output from the MOSFET instead of just VBUS:
+
+<img src="assets/voltage-regulator.png" width=300px>
+
+Finally, I tidied up the schematic, changed the size to A3 and divided everything into sections so it's easier to read and work with:
+
+<img src="assets/schematic-wip-july-17.png" width=500px>
+
+I think tomorrow I'll be able to fully finish my schematic and maybe start with the PCB, though I'd like to get someone to take a look at it and tell me if there are any obvious mistakes before starting with the PCB
+
+**Time spent this session: 2h**
