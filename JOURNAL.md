@@ -5,7 +5,7 @@ description: "Simple RP2350-based devboard"
 created_at: "2025-07-15"
 ---
 
-### Total time spent: 9h
+### Total time spent: 11h
 
 # July 15: Started reading hardware design guide + basic schematic design
 
@@ -64,5 +64,19 @@ Finally, I tidied up the schematic, changed the size to A3 and divided everythin
 <img src="assets/schematic-wip-july-17.png" width=500px>
 
 I think tomorrow I'll be able to fully finish my schematic and maybe start with the PCB, though I'd like to get someone to take a look at it and tell me if there are any obvious mistakes before starting with the PCB
+
+**Time spent this session: 2h**
+
+# July 18: Finished schematic + started assigning footprints
+
+I finished the schematic today, added the microSD card reader (didn't know how to wire it at all, but I found a nice video that explained how SPI worked and I also found the RP2350 datasheet to find out what pins I had to use), a neopixel on pin 25 (if it makes assembly too hard / costly I might remove it) and a 4 pin Qwiic / Stemma QT connector.
+
+This is how the schematic is looking as of now:
+
+<img src="assets/schematic-july-18.png" width=500px>
+
+I also started looking for footprints and assigning them so I can already get started on the PCB. Though I'll probably wait for someone to take a look at it before starting, someone suggested I send it in the KiCad discord server so I'll probably do that (after creating a new account I haven't used discord in ages lol)
+
+Hopefully I'm able to finish this board soon, though with the time it took me to make the schematic I don't expect the PCB to be any easier 😭
 
 **Time spent this session: 2h**
