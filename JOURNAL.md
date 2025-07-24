@@ -5,7 +5,7 @@ description: "Simple RP2350-based devboard"
 created_at: "2025-07-15"
 ---
 
-### Total time spent: 11h
+### Total time spent: 16h
 
 # July 15: Started reading hardware design guide + basic schematic design
 
@@ -80,3 +80,21 @@ I also started looking for footprints and assigning them so I can already get st
 Hopefully I'm able to finish this board soon, though with the time it took me to make the schematic I don't expect the PCB to be any easier 😭
 
 **Time spent this session: 2h**
+
+# July 22: Got my schematic reviewed + started PCB
+
+Today I finally sent my schematic to the KiCad discord server and someone helped me with it. First, they told me to specify the caps for the LDO because there are limits on ESR (will do), secondly, they told me to wire the TEMP pin of the TP4056 and not just ground it, but I can't really do that since afaik I'd need to use 3-wire LiPos with a thermistor so I'll just keep that pin grounded I guess lol
+
+Then last thing they suggested is that I review the MOSFET circuit, but after chatting back and forth for a while I'm pretty sure it'll work, it's similar to a diode but without the voltage drop.
+
+After all this, I assigned all footprints (had to make one myself for the push buttons but it's just two pads) and imported everything to the PCB editor. Then I started positioning and laying out the components on the board, it's still not done yet but this is how it's looking for now (focused on the decoupling capacitors, definitely not even close to finished yet):
+
+<img src="assets/pcb-july-22-silkscreen.png" width=300px>
+
+And here's how it looks like with the silkscreen layer disabled:
+
+<img src="assets/pcb-july-22-no-silkscreen.png" width=300px>
+
+I'll keep working on it, I don't think it should be too hard now but we'll see :pf:
+
+**Time spent this session: 5h**
