@@ -5,7 +5,7 @@ description: "Simple RP2350-based devboard"
 created_at: "2025-07-15"
 ---
 
-### Total time spent: 16h
+### Total time spent: 20h
 
 # July 15: Started reading hardware design guide + basic schematic design
 
@@ -98,3 +98,21 @@ And here's how it looks like with the silkscreen layer disabled:
 I'll keep working on it, I don't think it should be too hard now but we'll see :pf:
 
 **Time spent this session: 5h**
+
+# July 24: Improved PCB layout, hopefully ready to route
+
+Today I continued working on the PCB, and I think I finally have it sort of ready to route (might change the layout later if routing is too hard though). I assigned 3D models to every footprint, put everything together and also added through-holes for headers and mounting holes. Here's how the PCB is looking for now:
+
+<img src="assets/pcb-july-24.png" height=400px>
+
+And here it is in the 3D viewer:
+
+<img src="assets/pcb-july-24-3d.png" height=400px>
+
+I'll fillet the corners and add a shit ton of silkscreen after finishing routing everything. Maybe I'll have to change the layout again when I realize everything's impossible to route though so we'll see :pf: (also I know for sure I'll change the headers layout because right now it's not ordered to match the MCU pins)
+
+I also changed the footprint for the Stemma QT and debug connectors to be vertical so I can save space on that.
+
+Now I guess I can just get started routing and hopefully finish the PCB soon!! I really want to finish it I've dedicated most of my free time to working on this :heavysob:
+
+**Time spent this session: 4h**
