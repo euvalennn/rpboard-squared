@@ -5,7 +5,7 @@ description: "Simple RP2350-based devboard"
 created_at: "2025-07-15"
 ---
 
-### Total time spent: 20h
+### Total time spent: 24h
 
 # July 15: Started reading hardware design guide + basic schematic design
 
@@ -114,5 +114,19 @@ I'll fillet the corners and add a shit ton of silkscreen after finishing routing
 I also changed the footprint for the Stemma QT and debug connectors to be vertical so I can save space on that.
 
 Now I guess I can just get started routing and hopefully finish the PCB soon!! I really want to finish it I've dedicated most of my free time to working on this :heavysob:
+
+**Time spent this session: 4h**
+
+# July 25: Started routing and changed layout (again)
+
+I finally got onto routing the PCB today! I spent a lot of time moving stuff around and trying different positions, and I also changed the header pins connections to match the order of the physical MCU pins. I also realized the flash memory chip was not wired properly in my schematic, the CS pin was also wired to 3V3 (originally it was for an optional pull-up resistor, but I didn't realize if I didn't include the pull-up I also wouldn't need to wire it to 3V3 :pf:) but that was a quick fix, just removed the connection and updated the PCB.
+
+After a few hours of routing, I sent my progress to the Slack and realized the MCU wasn't centered which I haven't really thought of before, so I moved some stuff to make space for the MCU and had to delete almost all the tracks I've routed :heavysob:
+
+This is how the PCB is looking for now:
+
+<img src="assets/pcb-july-25.png" height=400px>
+
+I'll add a ground pour on both layers when I finish routing, along with a fillet for the corners and silkscreen!! (what I'm looking forward to the most lol)
 
 **Time spent this session: 4h**
