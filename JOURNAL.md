@@ -5,7 +5,7 @@ description: "Simple RP2350-based devboard"
 created_at: "2025-07-15"
 ---
 
-### Total time spent: 24h
+### Total time spent: 29h
 
 # July 15: Started reading hardware design guide + basic schematic design
 
@@ -130,3 +130,21 @@ This is how the PCB is looking for now:
 I'll add a ground pour on both layers when I finish routing, along with a fillet for the corners and silkscreen!! (what I'm looking forward to the most lol)
 
 **Time spent this session: 4h**
+
+# July 27: More routing (almost finished)!
+
+Today I continued routing the PCB traces and added a ground pour on the front and back layers, I don't think I have much more to say about that lol
+
+I also added a net label to the USB_DP and USB_DM pins of the MCU so KiCad lets me route a differential pair for the USB data lines, here's a screenshot of that in the schematic:
+
+<img src="assets/net-labels.png" height=100px>
+
+And here's a screenshot of how the PCB is looking for now:
+
+<img src="assets/pcb-july-27.png" height=400px>
+
+I'm only missing 10 more routes and after that I should be finished with the PCB!! yayyy
+
+Hopefully there aren't any big mistakes I didn't notice because if there are I am NOT gonna be able to submit before the deadline 😭
+
+**Time spent this session: 5h**
