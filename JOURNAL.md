@@ -5,7 +5,7 @@ description: "Simple RP2350-based devboard"
 created_at: "2025-07-15"
 ---
 
-### Total time spent: 29h
+### Total time spent: 33h
 
 # July 15: Started reading hardware design guide + basic schematic design
 
@@ -148,3 +148,27 @@ I'm only missing 10 more routes and after that I should be finished with the PCB
 Hopefully there aren't any big mistakes I didn't notice because if there are I am NOT gonna be able to submit before the deadline 😭
 
 **Time spent this session: 5h**
+
+# July 29: Finished the PCB!!
+
+I finally finished the PCB! :yay:
+
+I routed the missing traces (had to change some existing routes positions and add some vias but didn't change too much), added one more GND pin to each header, added silkscreen and also filleted the PCB corners. I'll attach a photo of the PCB in the editor, the 3D viewer and also a screenshot of the schematic.
+
+PCB:
+
+<img src="assets/pcb-final.png" height=400px>
+
+3D viewer:
+
+<img src="assets/pcb-final-3d.png" height=400px>
+
+Schematic:
+
+<img src="assets/schematic-final.png" height=400px>
+
+I guess I'm ready to submit now!! :D
+
+All I need to submit now is the README, the BOM and well basically everything but the PCB lol
+
+**Time spent this session: 4h**
