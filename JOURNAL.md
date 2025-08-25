@@ -5,7 +5,7 @@ description: "Simple RP2350-based devboard"
 created_at: "2025-07-15"
 ---
 
-### Total time spent: 33h
+### Total time spent: 39h
 
 # July 15: Started reading hardware design guide + basic schematic design
 
@@ -172,3 +172,29 @@ I guess I'm ready to submit now!! :D
 All I need to submit now is the README, the BOM and well basically everything but the PCB lol
 
 **Time spent this session: 4h**
+
+# August 22: PCBs arrived!!!
+
+Today I finally got my PCBs! There's not much to say about the building process since they came already assembled. Only "issue" I had with it was that when I flashed CircuitPython + my example code it didn't work, but then I realized it was becasue I hadn't copied over the libraries to the board so after doing that it did work haha
+
+Also, I got started with the magazine page, I have it pretty much ready except for some changes I'll make tomorrow.
+
+**Time spent this session: 3h**
+
+# August 23: Finished magazine + Reddit post
+
+I finished my magazine page today. I'm pretty happy with the result, especially considering I've never used Figma before (it's actually pretty nice and easy to use I see why acon likes it so much now lol)
+
+I also posted my project to r/electronics, r/raspberry_pi and r/embedded, though r/electronics instantly deleted my post, probably because I've never used Reddit before so I had to post from a new account.
+
+Now I only have to do the demo video, I'm kind of scared because my pronunciation and overall speaking skills in english are awful but I'll try my best haha
+
+**Time spent this session: 2h**
+
+# August 24: Finally recorded the demo vid!
+
+Today I finally stopped procrastinating on recording the video and did it, it's a little short since there's not much to show about a devboard but still I think it's a nice demo, also listening to it maybe I'm not THAT bad at english lol
+
+Well I think that's it! I already edited the demo video so all that's left to do now is add the build images to my readme and submit the form :D
+
+**Time spent this session: 1h**
