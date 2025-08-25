@@ -27,9 +27,9 @@ I wanted to build a devboard to learn more about actual PCB design and electroni
 
 ### PCB:
 
-| PCB editor                                    | 3D viewer                                        |
-| --------------------------------------------- | ------------------------------------------------ |
-| <img src="assets/pcb-final.png" height=400px> | <img src="assets/pcb-final-3d.png" height=400px> |
+| PCB editor                                          | 3D viewer                                        |
+| --------------------------------------------------- | ------------------------------------------------ |
+| <img src="assets/pcb-final-final.png" height=400px> | <img src="assets/pcb-final-3d.png" height=400px> |
 
 Both the PCB and the schematic were designed using KiCad. The PCB is a 2-layer board with a ground pour on both layers.
 
