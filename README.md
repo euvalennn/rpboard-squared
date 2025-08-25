@@ -19,6 +19,12 @@ I wanted to build a devboard to learn more about actual PCB design and electroni
 - USB-C connector
 - 16MB flash memory
 
+## Built project:
+
+| Front                                     | Back                                     |
+| ----------------------------------------- | ---------------------------------------- |
+| <img src="assets/front.png" height=400px> | <img src="assets/back.png" height=400px> |
+
 ## PCB and schematic:
 
 ### Schematic:
