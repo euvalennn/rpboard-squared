@@ -179,6 +179,12 @@ Today I finally got my PCBs! There's not much to say about the building process 
 
 Also, I got started with the magazine page, I have it pretty much ready except for some changes I'll make tomorrow.
 
+Here are some pictures of the front and back of the board:
+
+| Front                                     | Back                                     |
+| ----------------------------------------- | ---------------------------------------- |
+| <img src="assets/front.png" height=400px> | <img src="assets/back.png" height=400px> |
+
 **Time spent this session: 3h**
 
 # August 23: Finished magazine + Reddit post
